@@ -1,0 +1,24 @@
+.filterContainer {
+  margin-bottom: 20px;
+}
+
+.filterLabel {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.filterInput {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filterInput:disabled {
+  background-color: #eaeaea;
+  cursor: not-allowed;
+  border-color: #d3d3d3;
+}
